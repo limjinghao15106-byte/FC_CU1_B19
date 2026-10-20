@@ -1,0 +1,126 @@
+
+/* ===== NAVBAR ===== */
+nav {
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    
+}
+.navbar-brand {
+    color: #1A1A2E;
+    accent-color: #C9A84C;
+}
+
+        
+        
+
+/* ===== HERO SECTION ===== */
+.hero {
+    Background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+    Color: #fff;
+    background-repeat: no-repeat;
+    background-image: url(fonts/hero-bg.jpg);
+    background-position: center;
+    opacity: ;
+
+}
+.tag {
+    width: fit-content;
+    color: #8B7024;
+    background-color: #F0E6C8;
+    border-radius: 10px;
+}
+
+
+/* ===== PROJECTS SECTION ===== */
+.cards {
+    width: auto;
+    height:auto;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.cards img {
+    width: 100%;          /* make image fill the card width */
+  height: 360px;         /* keep aspect ratio */
+  overflow: hidden;
+  object-fit: cover; 
+}
+.card {
+    width: fit-content;
+    
+}
+
+/* ===== SERVICES SECTION ===== */
+.service {
+    background-color: #F9F7F2;
+}
+.service-logo {
+    
+    width: fit-content;
+    background-color:  #1A1A2E;
+    color: #C9A84C;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 4 columns */
+  gap: 20px; /* spacing between posts */
+  padding: 20px;
+
+
+}
+
+/* ===== TEAM SECTION ===== */
+.grid2 {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3columns */
+  gap: 20px; /* spacing between posts */
+  padding: 20px;
+}
+.grid2.card {
+    border-radius: 0px;
+    background-color: #F9FAFB;
+}
+.gender {
+        color: #C9A84C;
+}
+.role {
+    color: #C9A84C;
+    font-weight: bolder;
+}
+/* ===== CONTACT SECTION ===== */
+.enquiry {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+/* ===== FOOTER ===== */
+.Footer {
+    background-color: #1A1A2E;
+    color: white;
+}
+.inline {
+    display:  flex;
+    justify-content: space-around;
+}
+/* ===== RESPONSIVE ===== */
+
+/* tablet view */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2columns */
+    gap: 20px; /* spacing between posts */
+    padding: 20px;
+    }
+    
+}
+/* mobile view */
+@media screen and (max-width: 767px) {
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* 1columns */
+    }
+}
